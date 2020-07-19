@@ -1,0 +1,81 @@
+.register-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.register-container section.form {
+    width: 100%;
+    max-width: 350px;
+}
+
+.register-container section.form header {
+    display: inline-flex;
+    align-items: center;
+    top: 0px;
+    width: 100%;
+}
+
+.register-container section.form header img {
+    height: 60px;
+    width: 85%;
+    max-width: 80%;
+    top: 0px;
+}
+
+.register-container section.form header button {
+    height: 55px;
+    width: 20%;
+    max-width: 55px;
+    border-radius: 500px;
+    border: 2px solid #dcdce6;
+    background: transparent;
+    transition: border-color 0.2s;
+    color: #B8BEDD;
+    top: 0px;
+}
+
+.register-container section.form form {
+    margin-bottom: 270px;
+}
+
+.register-container section.form form button {
+    width: 100%;
+    height: 55px;
+    background: #B8BEDD;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+}
+
+.register-container section.form form button:hover {
+    filter: brightness(90%);
+}
+
+.register-container section.form img {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    max-width: 80%;
+    top: 0px;
+    margin-bottom: 5px;
+}
+
+input, button, textarea {
+    font: 400 18px Baloo Thambi 2, sans-serif;
+}
