@@ -24,7 +24,7 @@ export default function Login() {
 
             localStorage.setItem('userId', response.data.id);
 
-            history.push('/vehicles'); // navigates to the Vehicles route
+            history.push('/products'); // navigates to the Vehicles route
         } catch (err) {
             addToast('Falha no login, tente novamente.', { appearance: 'info' });
         }
@@ -50,7 +50,7 @@ export default function Login() {
                     <button id="loginButton" className="button" type="submit">Entrar</button>
 
                     <Link className="link-register" to="/register">
-                        <FiPlusCircle size={20} color="#54478C" />
+                        <FiPlusCircle size={20} color="#E84143" />
                         Cadastrar-se
                     </Link>
                 </form>
