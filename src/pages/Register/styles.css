@@ -22,10 +22,15 @@
 }
 
 .register-container section.form header img {
-    height: 60px;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
     width: 85%;
     max-width: 80%;
     top: 0px;
+    margin-bottom: 5px;
 }
 
 .register-container section.form header button {
@@ -41,7 +46,7 @@
 }
 
 .register-container section.form form {
-    margin-bottom: 270px;
+    margin-bottom: 253px;
 }
 
 .register-container section.form form button {
@@ -64,15 +69,4 @@
 
 .register-container section.form form button:hover {
     filter: brightness(90%);
-}
-
-.register-container section.form img {
-    align-items: center;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: 55px;
-    max-width: 80%;
-    top: 0px;
-    margin-bottom: 5px;
 }

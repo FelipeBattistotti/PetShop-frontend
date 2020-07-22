@@ -1,6 +1,5 @@
 
 <p align="center">
-  <img alt="Dog" src=".github/dog_icon.png">
   <img alt="PetShop" src=".github/petshop_icon.png">
 </p>
 
