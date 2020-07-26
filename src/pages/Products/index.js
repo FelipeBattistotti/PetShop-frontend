@@ -7,7 +7,7 @@ import api from '../../services/api';
 
 import './styles.css';
 
-import profileLogoImg from '../../assets/profile_logo.svg';
+import largePetShopLogoImg from '../../assets/large_pet_shop_logo.svg';
 
 export default function Products () {
     const [products, setProducts] = useState([]);
@@ -74,6 +74,7 @@ export default function Products () {
                 const resultsDelete = products.filter(product => product.id !== id);
 
                 setSearchResults(resultsDelete);
+                setSearchTerm('');
 
             } catch (err) {
                 addToast('Erro ao deletar produto, tente novamente.', { appearance: 'error' });
@@ -82,7 +83,8 @@ export default function Products () {
     }
 
     async function handleModifyProduct (id) {
-        
+        localStorage.setItem('productId', id);
+        history.push('/product/modify'); // navigates to the ModifyProduct route
     }
 
     return (
@@ -90,7 +92,7 @@ export default function Products () {
             <div className="profile-container1">
 
                 <header>
-                    <img src={profileLogoImg} alt="profileLogo" />
+                    <img src={largePetShopLogoImg} alt="largePetShopLogo" />
                     <button onClick={handleLogout} type="button" title="Sair">
                         <FiChevronLeft size={35} />
                     </button>

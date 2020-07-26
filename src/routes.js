@@ -17,7 +17,7 @@ export default function Routes () {
                     <Route path="/register" exact component={Register} />
                     <Route path="/products" component={Products} />
                     <Route path="/product/new" component={NewProduct} />
-                    <Route path="/products/modify" component={ModifyProduct} />
+                    <Route path="/product/modify" component={ModifyProduct} />
                 </Switch>
             </BrowserRouter>
         </ToastProvider>

@@ -7,7 +7,7 @@ import api from '../../services/api';
 
 import './styles.css';
 
-import registerLogoImg from '../../assets/register_logo.svg';
+import smallPetShopLogoImg from '../../assets/small_pet_shop_logo.svg';
 
 export default function Register() {
     const [name, setName] = useState('');
@@ -46,11 +46,16 @@ export default function Register() {
         <div className="register-container">
             <section className="form">
                 <header>
-                    <img  src={registerLogoImg} alt="registerLogo" className="img" />
+                    <img  src={smallPetShopLogoImg} alt="smallPetShopLogo" className="img" />
                     <button onClick={handleLogin} type="button" title="Voltar">
                         <FiChevronLeft size={30} />
                     </button>
                 </header>
+
+                <div>
+                    <p className="title">Criar Conta</p>
+                </div>
+
                 <form onSubmit={handleRegister}>
                     <input 
                         placeholder="Nome"

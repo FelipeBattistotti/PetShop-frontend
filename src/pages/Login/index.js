@@ -24,7 +24,7 @@ export default function Login() {
 
             localStorage.setItem('userId', response.data.id);
 
-            history.push('/products'); // navigates to the Vehicles route
+            history.push('/products'); // navigates to the Products route
         } catch (err) {
             addToast('Falha no login, tente novamente.', { appearance: 'info' });
         }
