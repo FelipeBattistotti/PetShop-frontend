@@ -97,8 +97,10 @@ Snapshots:
 
 # Videos
 
-- [Backend: Pet Shop - Web App (Parte 1)](https://youtu.be/K7iKAAvOhL4)
-- [Backend: Pet Shop - Web App (Parte 2)](https://youtu.be/iY7X5dLG4xE)
+- [Pet Shop - Web App (Backend) - Parte 1](https://youtu.be/K7iKAAvOhL4)
+- [Pet Shop - Web App (Backend) - Parte 2](https://youtu.be/iY7X5dLG4xE)
+- [Pet Shop - Web App (Frontend)](https://youtu.be/H3SMJeNr58M)
+- [Pet Shop - Web App (Demo)](https://youtu.be/5HedMW7Hzrw)
 
 <br/>
 
