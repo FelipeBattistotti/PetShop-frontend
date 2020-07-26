@@ -86,6 +86,9 @@ Snapshots:
 <p align="center">
   <img alt="Snapshot1" src=".github/snapshot1.png">
   <img alt="Snapshot2" src=".github/snapshot2.png">
+</p>
+
+<p align="center">
   <img alt="Snapshot3" src=".github/snapshot3.png">
   <img alt="Snapshot4" src=".github/snapshot4.png">
 </p>
